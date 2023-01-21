@@ -1,6 +1,6 @@
 # Shoutouts:
 
-- the artist Cole Baxter who inspired this: [check them out](linktr.ee/colebaxter)
+- the artist Cole Baxter who inspired this: [check them out](https://linktr.ee/colebaxter)
 
 - the CSS dev that made the Sass/CSS files: https://codepen.io/brundolf/pen/beagbQ
 
