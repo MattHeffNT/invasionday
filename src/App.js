@@ -37,7 +37,7 @@ function App() {
       // display gameover -- play derisive sound
       console.log('game over');
       setShow(true);
-      // screen.innerHTML = `<p> Game over ya dumb dog </p>`;
+      document.querySelector('.display>p').innerHTML = `<p> Game over ya dumb dog </p>`;
     } else {
       // you win display fireworks...play music
       screen.classList.add('displayGif');
@@ -70,6 +70,7 @@ function App() {
 
           <div className="displayAnswers">
             {show ? (
+              (<h1>Game Over</h1>),
               <iframe
                 width="200"
                 height="115"
