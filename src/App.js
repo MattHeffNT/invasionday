@@ -26,6 +26,7 @@ function App() {
 
   // when you press the A button
   const aButton = () => {
+
     //UseState so that i can return different things to the gameboy screen
 
     const selected = document.querySelector('.selected').id;
@@ -50,11 +51,6 @@ function App() {
   const restart = () => {
     window.location.reload(false);
   };
-
-  // const button A pushed () => {
-  // if yes (Yay) (play deadly song)
-  // if no (gameover) (play a derisive song)
-  // }
 
   return (
     <div className="gameboy" id="GameBoy">
