@@ -3,8 +3,8 @@ import './App.scss';
 // css and html design by https://codepen.io/brundolf/pen/beagbQ
 
 function App() {
-  const [show, setShow] = useState(false);
 
+  const [show, setShow] = useState(false);
   let audio = new Audio('./assets/congrats.mp3');
   audio.load();
 
@@ -12,10 +12,9 @@ function App() {
   const toggleSelection = (e) => {
     const yes = document.querySelector('#yes');
     const no = document.querySelector('#no');
-
     const upDown = e.currentTarget.className;
-
-    // if up or down pressed toggle css classes on/off
+    // if up or down pressed toggle 
+    // css classes on/off
     if (upDown === 'down') {
       yes.classList.remove('selected');
       no.classList.add('selected');
@@ -29,12 +28,11 @@ function App() {
   const aButton = () => {
     const selected = document.querySelector('.selected').id;
     const screen = document.querySelector('.display');
-
     if (selected == 'yes') {
-      // display gameover -- show bbq area video for education
+      // display gameover -- 
+      // show bbq area video for education
       setShow(true);
       document.querySelector('.display>p').innerHTML = `<p > Game over ya dumb dog </p>`;
-
       document.querySelector('.display>p').style = 'font-size:8px;';
     } else {
       // you win display fireworks...play music
@@ -65,7 +63,6 @@ function App() {
         {/* Main game screen */}
         <div className="display" id="mainCanvas">
           <p> Do you Celebrate Invasion Day ?</p>
-
           {/* show different things on screen depending on what option selected  */}
           <div className="displayAnswers">
             {show ? (
