@@ -66,7 +66,7 @@ function App() {
         </div>
 
         <div className="display" id="mainCanvas">
-          <p> Do you support Invasion Day ?</p>
+          <p> Do you Celebrate Invasion Day ?</p>
 
           <div className="displayAnswers">
             {show ? (
@@ -89,10 +89,10 @@ function App() {
                   className="selected"
                   onClick={(e) => toggleSelection(e)}
                 >
-                  Yes
+                  - Yes
                 </p>
                 <p id="no" name="option" value="No">
-                  No I'm not a dumb dog
+                  - No I'm not a dumb dog
                 </p>
               </div>
             )}
