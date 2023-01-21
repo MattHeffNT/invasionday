@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/invasionday/static/css/main.611fe3f3.css",
-    "main.js": "/invasionday/static/js/main.d42a30d4.js",
+    "main.js": "/invasionday/static/js/main.ce362d0f.js",
     "static/js/787.42737074.chunk.js": "/invasionday/static/js/787.42737074.chunk.js",
     "static/media/PressStart2P-Regular.ttf": "/invasionday/static/media/PressStart2P-Regular.21503c6a5385ab41dde9.ttf",
     "static/media/XZ5V.gif": "/invasionday/static/media/XZ5V.f57cb3ab60a875c64a10.gif",
     "index.html": "/invasionday/index.html",
     "main.611fe3f3.css.map": "/invasionday/static/css/main.611fe3f3.css.map",
-    "main.d42a30d4.js.map": "/invasionday/static/js/main.d42a30d4.js.map",
+    "main.ce362d0f.js.map": "/invasionday/static/js/main.ce362d0f.js.map",
     "787.42737074.chunk.js.map": "/invasionday/static/js/787.42737074.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.611fe3f3.css",
-    "static/js/main.d42a30d4.js"
+    "static/js/main.ce362d0f.js"
   ]
 }
